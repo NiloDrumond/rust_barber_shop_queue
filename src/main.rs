@@ -59,6 +59,7 @@ fn client(index: u32, arc_state: Arc<Mutex<State>>) {
                     break;
                 }
             }
+            // unlock implicito
         }
     }
 }
